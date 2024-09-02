@@ -1,0 +1,54 @@
+/* .card{
+
+  border: 1px solid hsl(0, 0%, 80%);
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%,0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+
+}
+
+.card .card_image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card_title{
+  font-family: arial,sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+
+.card .card_text{
+
+  color: hsl(0, 0%, 30%);
+  font-family: arial,sans-serif;
+
+} */
+
+
+/* External */
+
+/* .button{
+  background-color: hsl(200, 100%, 50%);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+} */
+
+.student{
+  border: 1px solid hwb(0 0% 50% / 0.8);
+  padding: 10px;
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.student p{
+  margin: 0px;
+}
