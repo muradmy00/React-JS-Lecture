@@ -4,8 +4,7 @@
 //import Buttons from "./Button/Buttons.jsx"
 //import Card from "./Card"
 //import Student_Props from "./Student_Props"
-
-import UserGreeting from "./UserGreeting"
+//import UserGreeting from "./UserGreeting"
 
 
 
@@ -57,8 +56,14 @@ function App() {
 
       {/* Fifth lecture */}
 
-      <UserGreeting isLoggedIn={true} username='Murad00'/>
-      <UserGreeting/>
+      {/* <UserGreeting isLoggedIn={true} username='Murad00'/>
+      <UserGreeting/> */}
+
+
+
+      {/* Sixth lecture */}
+
+
 
 
     </> 
