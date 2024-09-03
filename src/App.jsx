@@ -3,8 +3,9 @@
 // import Food from './Food.jsx'
 //import Buttons from "./Button/Buttons.jsx"
 //import Card from "./Card"
+//import Student_Props from "./Student_Props"
 
-import Student_Props from "./Student_Props"
+import UserGreeting from "./UserGreeting"
 
 
 
@@ -46,13 +47,21 @@ function App() {
     {/* props ---> Properties */}
 
 
-    <Student_Props name="Mohiuddin" age={23} isStudent={true}/>
+    {/* <Student_Props name="Mohiuddin" age={23} isStudent={true}/>
     <Student_Props name="Murad" age={22} isStudent={true}/>
     <Student_Props name="Miraj" age={21} isStudent={true}/>
     <Student_Props />
-    <Student_Props name="Md"/>
+    <Student_Props name="Md"/> */}
 
-    </>
+
+
+      {/* Fifth lecture */}
+
+      <UserGreeting isLoggedIn={true} username='Murad00'/>
+      <UserGreeting/>
+
+
+    </> 
   )
 }
 
