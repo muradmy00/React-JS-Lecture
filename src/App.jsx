@@ -12,7 +12,23 @@ import List from "./List"
 
 
 function App() {
+
+
+  const fruits = [{ id: 1, name: "apple", calories: 95 },
+  { id: 2, name: "orange", calories: 120 },
+  { id: 3, name: "banana", calories: 150 },
+  { id: 4, name: "coconut", calories: 300 },
+  { id: 5, name: "pineapple", calories: 5 }];
  
+
+
+  const vegetables = [{ id: 6, name: "potatoes", calories: 195 },
+  { id: 7, name: "celery", calories: 20 },
+  { id: 8, name: "carrots", calories: 50 },
+  { id: 9, name: "corn", calories: 30 },
+  { id: 10, name: "broccoil", calories: 25 }];
+ 
+
 
   return (
    
@@ -65,7 +81,15 @@ function App() {
 
       {/* Sixth lecture */}
 
-      <List /> 
+     
+     
+      {/* {fruits.length > 0 ? <List items={fruits} category="Fruits Name: " /> : null}
+      {vegetables.length > 0 ? <List items={vegetables} category="Vegetables Name: " /> : null} */}
+
+      {/* Same logic */}
+
+      {fruits.length > 0 && <List items={fruits} category="Fruits Name: " />}
+      {vegetables.length > 0 && <List items={vegetables} category="Vegetables Name: " />}
 
 
     </> 
